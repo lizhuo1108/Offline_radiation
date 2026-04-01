@@ -1,3 +1,6 @@
-The repository includes the modified RRTMG files written in Fortran, which should be put back into the CESM model to get the input variables. After you get the input variables, put them as the input to the RRTMG and do the offline calculation (Offline_RRTMG.ipynb). The modified Fortran files are for CAM4. 
+# Introduction
+This repository is for the scientists and researchers who want to run the offline RRTMG code to do some calculation, such as the CFRAM decomposition (e.g., Dynamical greenhouse-plus feedback and polar warming amplification. Part II: Meridional and vertical asymmetries of the global warming by Lu and Cai (2007)). The repository includes the modified RRTMG files written in Fortran, and the python function to run the offline RRTMG code. 
+
+# 
 
 Please compare the online and offline result to make sure that the offline calculation is right. 
