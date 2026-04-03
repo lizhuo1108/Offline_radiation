@@ -5,7 +5,7 @@ This repository is for the scientists and researchers who want to run the offlin
 You need to be able to run the CESM model, or another GCM which used RRTMG radiation scheme. You also need the climlab (https://github.com/climlab/climlab). 
 
 # Codes
-Radiation.F90, radsw.F90, radlw.F90 are the modified RRTMG codes I write to output the necessary inputs to the offline RRTMG, including the specific humidity, ozone, cloud, etc. Offline_RRTMG.ipynb includes all the functions you need to do the offline calculation. The calculation may take some time, be patient. If you have any questions, please email me (lizhuo1108@gmail.com)
+Radiation.F90, radsw.F90, radlw.F90 are the modified RRTMG codes I write to output the necessary inputs to the offline RRTMG, including the specific humidity, ozone, cloud, etc. Offline_RRTMG.ipynb includes all the functions you need to do the offline calculation. The example code is given by. The calculation may take some time, be patient. 
 
 # Author
 Li Zhuo
